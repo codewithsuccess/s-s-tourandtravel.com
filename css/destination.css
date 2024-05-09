@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* destination page styling */
+.destination {
+    min-height: 150vh;
+    margin-top: 5px;
+    background-color: white;
+    height: 120vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.desti-h {
+    text-align: center;
+    background-color: #0873ff;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.desti-h h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #0873ff;
+    color: black;
+    padding: 10px 2px;
+}
+
+
+.desti-h p{
+    padding: 20px 2px;
+}
+
+.d_img-1 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.d_img-1 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.d_img-1 img {
+    padding: 5px 10px;
+}
+
+.d_img-2 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d_img-2 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.d_img-2 img {
+    padding: 5px 10px;
+}
+
+.dimg-d {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dimg-d p {
+    background-color: #0873ff;
+    color: black;
+    border-radius: 10px;
+}
+
+.dimg-d a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0px -40px;
+    color: yellow;
+    background-color: #0873ff;
+    border-radius: 10px;
+}
+
+.dimg-d a:hover {
+    background-color: rgb(57, 81, 219);
+    color: white;
+}
+
+
+/*search opn*/
+#form {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0873ff;
+}
+
+#form p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 450px;
+    height: 30px;
+}
+
+.btn{
+    color: black;
+    height: 30px; 
+}
+
+/*footer*/
+.footer-d {
+    height: 10vh;
+    background-color: #0873ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-d p {
+    color: white;
+}
+
+.footer-d a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+}
+
+.footer-d a:hover {
+    color: darkblue;
+}
+
+.footer-d p:hover {
+    color: darkblue;
+}

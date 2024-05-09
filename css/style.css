@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+.navlinks li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navlinks a {
+    text-decoration: none;
+    font-size: 3vh;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px;
+}
+
+.navlinks .login {
+    background-color: rgb(57, 81, 219);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.navlinks .login a {
+    color: white;
+}
+
+.navlinks .login:hover {
+    background-color: rgb(51, 74, 202);
+    color: white;
+}
+
+.navlinks .login a:hover {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.navlinks :hover {
+    color: #4fe5ff;
+}
+
+.logo {
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo h1 {
+    color: rgb(57, 81, 219);
+}
+
+header .toggle_btn{
+    color: #000000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    padding-right: 5px;
+}
+
+/*dropdown menu*/
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    width: 300px;
+    height: 0px;
+    background:  rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu li a:hover{
+    color: blue;
+}
+
+.dropdown_menu .ddms{
+    width: 100%;
+    text-align: center;
+    background-color: #0873ff;
+    border-radius: 10px;
+}
+
+.main {
+    min-height: 250vh;
+    width: 100%;
+}
+
+.box-1 {
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main_img img {
+    width: 100%;
+    height: 77vh;
+}
+
+.box-1 .content-1 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 250, 250);
+}
+
+.box-1 .content-1 h1 {
+    font-size: 35px;
+    color: #0873ff;
+}
+
+.box-1 .content-1 p {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.box-1 .content-1 .more {
+    height: 9vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more p {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(57, 81, 219);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 55px;
+}
+
+.box-2 {
+    background-color: white;
+    height: 120vh;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-2 h2 {
+    margin: 10px 15px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    color: #0873ff;
+}
+
+.d_img-1 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.d_img-1 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.d_img-1 img {
+    padding: 5px 10px;
+}
+
+.d_img-2 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d_img-2 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.d_img-2 img {
+    padding: 5px 10px;
+}
+
+.dimg {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dimg p {
+    background-color: rgb(57, 81, 219);
+    color: white;
+    border-radius: 10px;
+}
+
+.dimg a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0px -40px;
+    color: yellow;
+    background-color: rgb(57, 81, 219);
+    border-radius: 10px;
+}
+
+.dimg a:hover {
+    background-color: purple;
+    color: white;
+}
+
+.d_img a:hover {
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.box-3 {
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+.box-3 h3 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 10px;
+    color: #0873ff;
+}
+
+.box-3 p {
+    margin: 1px 10px;
+}
+
+.footer {
+    height: 10vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+}
+
+.footer a:hover {
+    color: blue;
+}
+
+.footer p:hover {
+    color: rgb(57, 81, 219);
+}
+
